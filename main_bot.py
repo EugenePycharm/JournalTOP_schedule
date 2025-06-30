@@ -7,10 +7,10 @@ from get_token import get_token
 from schedule_image import generate_schedule_image
 import threading
 
-bot = telebot.TeleBot('6789958435:AAFryhCd0-024DOGMP1tX5EUcMLZq7pvHSY')
+bot = telebot.TeleBot('YOUR_BOT_TOKEN')
 
 # Укажите ID вашего чата
-CHAT_ID = -1002447051045  # Замените на нужный chat_id
+CHAT_ID = YOUR_CHAT_ID  # Замените на нужный chat_id
 last_pinned_message_id = None  # Переменная для хранения ID последнего закрепленного сообщения
 
 
